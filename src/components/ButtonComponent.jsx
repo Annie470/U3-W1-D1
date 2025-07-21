@@ -1,7 +1,7 @@
 
-const ButtonComponent = ()=> {
+const ButtonComponent = (props)=> {
     return (
-        <button>Click</button>
+        <button>{props.tag}</button>
     )
 }
 
